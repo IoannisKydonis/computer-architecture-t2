@@ -1,1 +1,4 @@
-# computer-architecture-t2
+# 2η εργασία Αρχιτεκτονικής Προηγμένων Υπολογιστών
+## Συντελεστές (ομάδα 9):
+Κυδώνης Ιωάννης, ΑΕΜ: 9407, email: ikydonis@ece.auth.gr  
+Ούρδας Αντώνιος, ΑΕΜ: 9358, email: ourdasav@ece.auth.gr
