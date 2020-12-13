@@ -80,6 +80,9 @@
 Εξαίρεση αποτελεί το ζεύγος παραμέτρων L1 Data Cache Size και L1 Instruction Cache Size για το οποίο πραγματοποιήθηκαν όλοι οι πιθανοί συνδυασμοί δοκιμών.
 Ακολουθούν τα αποτελέσματα που προέκυψαν από την εκτέλεση των benchmarks.
 
+Για την εκτέλεση των δοκιμών στα benchmarks χρησιμοποιήθηκαν τα scripts που βρίσκονται στο path [scripts](./scripts) με παράλληλη εκτέλεση για ταχύτερη εξαγωγή των αποτελεσμάτων.
+Για το parsing των αποτελεσμάτων τροποποιήθηκε το δοθέν script read_results.sh ώστε να εξάγει τα επιθυμητά αποτελέσματα σε markdown table format.
+
 Αποτελέσματα των benchmarks για bzip
 
 | Version | sim_seconds | system.cpu.cpi | system.cpu.dcache.overall_miss_rate::total | system.cpu.icache.overall_miss_rate::total | system.l2.overall_miss_rate::total |
@@ -326,7 +329,7 @@ Average miss penalty(L1) = Hit time(L2) + Miss rate(L2) * Average miss penalty(L
 Cost = (CLS)/128 * 10 + (L1DS + L1IS)/128 * 10 + (L1DA + L1IA)/4 * 10 + (L2S)/4096 * 1 + (L2A)/4 * 1
 ```
 
-Για τον υπολογισμό του _Performance/Cost_ για όλους τους συνδυασμούς καταχωρήθηκαν όλα τα δεδομένα μαζί με τις συναρτήσεις απόδοσης και κόστους σε ένα excel sheet.
+Για τον υπολογισμό του _Performance/Cost_ για όλους τους συνδυασμούς καταχωρήθηκαν όλα τα δεδομένα μαζί με τις συναρτήσεις απόδοσης και κόστους σε ένα [excel sheet](./results/results_with_cost_performance_measurement.xlsx).
 Στη συνέχεια έγιναν highlight οι μέγιστες τιμές _Performance/Cost_ για κάθε πείραμα και κάθε benchmark ώστε να φανεί ποια είναι η βέλτιστη σχεδίαση για το κάθε benchmark με βάση τις συναρτήσεις που ορίστηκαν παραπάνω.
 
 Κατόπιν μελέτης των διαγραμμάτων που προέκυψαν αποφασίσαμε να σχεδιάσουμε το σύστημά μας με βάση τα πορίσματα που προέκυψαν από τα benchmarks bzip και hmmer αποκλείοντας από τον υπολογισμό τα mcf, sjeng και libm.
