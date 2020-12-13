@@ -348,7 +348,7 @@ Cost = (CLS)/128 * 10 + (L1DS + L1IS)/128 * 10 + (L1DA + L1IA)/4 * 10 + (L2S)/40
 
 ## Πηγές
 
-[1] Hennessy, Patterson - Computer Architecture and Design 5<sup>th</sup> edition p.75
+[1] John Hennessy, David Patterson - Computer Architecture and Design 5<sup>th</sup> edition p.75
 
 ## Κριτική της εργασίας
 
