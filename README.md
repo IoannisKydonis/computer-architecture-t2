@@ -295,7 +295,7 @@
 Παρατηρούμε ότι το cacheline size παίζει σημαντικό ρόλο στη μείωση του miss rate για την L1 data και L2 cache αλλά όχι για την L1 instruction cache.
 Βλέπουμε επίσης ότι το associativity έχει μεγαλύτερη επιρροή στο miss rate της L1 instruction cache.
 Το μέγεθος της cache φαίνεται να μειώνει τα miss rates σε όλα τα επίπεδα caches για τα benchmarks bzip, mcf, hmmer.
-Τα υπόλοιπα benchmarks δε φαίνεται να επηρεάζονται ιδιαίτερα και αυτό λογικό αν δεν αξιοποιούν το locality της μνήμης.
+Τα υπόλοιπα benchmarks δε φαίνεται να επηρεάζονται ιδιαίτερα και αυτό είναι λογικό αν δεν αξιοποιούν το locality της μνήμης.
 
 ## Βήμα 3
 
