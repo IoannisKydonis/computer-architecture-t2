@@ -303,9 +303,9 @@
 Performance = 1 / (Average Memory Access Time) + (CPU Frequency) * (CPU Cores) / CPI
 ```
 
-Από το βιβλίο _Hennessy, Patterson - Computer Architecture and Design edition 5_ έχουμε ότι:
-```
-Average Memory Access Time = Hit time + Miss rate * Average miss penalty
+Για τον υπολογισμό του Average Memory Access Time έχουμε:
+<pre>
+Average Memory Access Time = Hit time + Miss rate * Average miss penalty<sup><a href="#πηγές">[1]</a></sup>
 
 ή αναδρομικά για τα 2 επίπεδα caches
 
@@ -314,7 +314,7 @@ Average Memory Access Time = Hit time(L1) + Miss rate (L1) * Average miss penalt
 όπου
 
 Average miss penalty(L1) = Hit time(L2) + Miss rate(L2) * Average miss penalty(L2)
-```
+</pre>
 
 Θεωρούμε ως Hit time(L1) = 1, Hit time(L2) = 10 και Average miss penalty(L2) = 100.
 
@@ -345,6 +345,10 @@ Cost = (CLS)/128 * 10 + (L1DS + L1IS)/128 * 10 + (L1DA + L1IA)/4 * 10 + (L2S)/40
 | L2 Size | 4096kB | 512kB | 2048kB |
 
 Η τελική επιλογή στις περιπτώσεις που υπήρχε ασυμφωνία μεταξύ των βέλτιστων τιμών που προέκυψαν από τα δύο benchmarks που λήφθηκαν υπόψιν έγινε με τη λήψη της ενδιάμεσης τιμής που προσφέρει το υψηλότερο _Performance/Cost_ συνολικά και για τα 2.
+
+## Πηγές
+
+[1] Hennessy, Patterson - Computer Architecture and Design 5<sup>th</sup> edition p.75
 
 ## Κριτική της εργασίας
 
