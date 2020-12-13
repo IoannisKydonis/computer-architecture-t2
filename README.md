@@ -262,35 +262,27 @@
 
 ### Ερώτημα 2
 
-![CPI per Cacheline size](./charts/2_1/CPIperCLS.PNG)
+![CPI per Cacheline size](./charts/2_1/cpi_per_cls.png)
 
-![CPI per L1 dcache associativity](./charts/2_1/CPI_per_L1_D_CACHE_ASSOCIATIVITY.PNG)
+![L1 Data Miss Rate per Cacheline size](./charts/2_1/l1_data_miss_rate_per_cls.png)
 
-![CPI per L1 icache associativity](./charts/2_1/CPI_per_L1_I_CACHE_ASSOCIATIVITY.PNG)
+![L1 Instruction Miss Rate per Cacheline size](./charts/2_1/l1_instruction_miss_rate_per_cls.png)
 
-![CPI per L2 cache associativity](./charts/2_1/CPI_per_L2_CACHE_ASSOCIATIVITY.PNG)
+![L2 Miss Rate per Cacheline size](./charts/2_1/l2_miss_rate_per_cls.png)
 
-![CPI per L2 cache size](./charts/2_1/CPI_per_L2_CACHE_SIZE.PNG)
+![L1 Data Miss Rate per L1 Data Associativity](./charts/2_1/l1_data_miss_rate_per_l1_data_associativity.png)
 
-![CPI per L1 size](./charts/2_1/CPI_PER_L1_I_CACHE_SIZE_L2_16.PNG)
+![L1 Instruction Miss Rate per L1 Instruction Associativity](./charts/2_1/l1_instruction_miss_rate_per_l1_instruction_associativity.png)
 
-![CPI per L1 size](./charts/2_1/CPI_PER_L1_I_CACHE_SIZE_L2_32.PNG)
+![L2 Miss Rate per L2 Associativity](./charts/2_1/l2_miss_rate_per_l2_associativity.png)
 
-![CPI per L1 size](./charts/2_1/CPI_PER_L1_I_CACHE_SIZE_L2_64.PNG)
+![CPI per L1 D/I Size](./charts/2_1/cpi_per_l1_d_i_size.png)
 
-![CPI per L1 size](./charts/2_1/CPI_PER_L1_I_CACHE_SIZE_L2_128.PNG)
+![L1 Data Miss Rate per L1 D/I Size](./charts/2_1/l1_data_miss_rate_per_l1_d_i_size.png)
 
-![L2 cache miss rate per L2 cache size](./charts/2_1/L2_CACHE_MISS_RATE__PER_L2_CACHE_SIZE.PNG)
+![L1 Instruction Miss Rate per L1 D/I Size](./charts/2_1/l1_instruction_miss_rate_per_l1_d_i_size.png)
 
-![L1 dcache miss rate per cache line size](./charts/2_1/L1_D_CACHE_MISS_RATE_PER_CLS.PNG)
-
-![L1 icache miss rate per cache line size](./charts/2_1/L1_I_CACHE_MISS_RATE_PER_CLS.PNG)
-
-![L2 cache miss rate per cache line size](./charts/2_1/L2_CACHE_MISS_RATE_PER_CLS.PNG)
-
-![L1 dcache miss rate per L1 dcache size](./charts/2_1/L1_D_CACHE_MISS_RATE_PER_L1_D_CACHE_SIZE.PNG)
-
-![L1 icache miss rate per L1 icache size](./charts/2_1/L1_I_CACHE_MISS_RATE_PER_L1_I_CACHE_SIZE.PNG)
+![L2 Miss Rate per L2 Size](./charts/2_1/l2_miss_rate_per_l2_size.png)
 
 ## Βήμα 3
 
